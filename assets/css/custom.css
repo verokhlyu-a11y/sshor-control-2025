@@ -1,43 +1,70 @@
 
-/* СШОР КОНТРОЛЬ — ФИРМЕННЫЙ СТИЛЬ */
+/* ОБЩИЕ НАСТРОЙКИ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #162B48;
+}
+
+/* ШАПКА САЙТА */
 
 .page-header {
-  background: #162B48 !important;
-  background-image: none !important;
+  background: #162B48;
+  text-align: center;
+  padding: 70px 20px;
 }
 
 .project-name {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
+  font-size: 42px;
   font-weight: 800;
+  text-align: center;
+  margin: 0 0 15px;
 }
 
 .project-tagline {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+/* ОСНОВНОЕ СОДЕРЖИМОЕ */
+
+.main-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
 }
 
 .main-content h1,
 .main-content h2,
 .main-content h3 {
   color: #162B48;
-  font-weight: 700;
 }
 
-.main-content a {
-  color: #EB3333;
-}
+/* АДАПТАЦИЯ ДЛЯ ТЕЛЕФОНОВ */
 
-.main-content hr {
-  background-color: #EB3333;
-  height: 2px;
-}
+@media (max-width: 600px) {
+  .page-header {
+    padding: 45px 15px;
+  }
 
-.btn {
-  background-color: #EB3333;
-  color: #FFFFFF;
-  border-radius: 8px;
-}
+  .project-name {
+    font-size: 28px;
+  }
 
-.btn:hover {
-  background-color: #C62828;
-  color: #FFFFFF;
+  .project-tagline {
+    font-size: 15px;
+  }
+
+  .main-content {
+    padding: 25px 16px;
+  }
 }
