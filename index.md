@@ -2,7 +2,7 @@
 layout: default
 title: "СШОР Контроль"
 ---
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 ---
 
 # СШОР КОНТРОЛЬ
