@@ -1,0 +1,43 @@
+
+/* СШОР КОНТРОЛЬ — ФИРМЕННЫЙ СТИЛЬ */
+
+.page-header {
+  background: #162B48 !important;
+  background-image: none !important;
+}
+
+.project-name {
+  color: #FFFFFF !important;
+  font-weight: 800;
+}
+
+.project-tagline {
+  color: #FFFFFF !important;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: #162B48;
+  font-weight: 700;
+}
+
+.main-content a {
+  color: #EB3333;
+}
+
+.main-content hr {
+  background-color: #EB3333;
+  height: 2px;
+}
+
+.btn {
+  background-color: #EB3333;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #C62828;
+  color: #FFFFFF;
+}
