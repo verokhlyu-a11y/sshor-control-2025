@@ -1,6 +1,9 @@
+
 ---
 layout: default
-title: СШОР Контроль
+title: "СШОР Контроль"
+---
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 ---
 
 # СШОР КОНТРОЛЬ
